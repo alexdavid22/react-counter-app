@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.number {
+  font-size: 50px;
+}
+
+.btns-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.increment,
+.decrement {
+  padding: 10px 20px;
+  border-radius: 100px;
+  margin-right: 5px;
+}
